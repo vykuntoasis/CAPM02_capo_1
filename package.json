@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
+    "@sap/cds-dk": "^7",
     "@sap/ux-specification": "^1.120.1"
   },
   "scripts": {
@@ -26,9 +27,8 @@
     "requires": {
       "db": "hana"
     },
-    "hana":{
-      "deploy-format":"hdbtable"
+    "hana": {
+      "deploy-format": "hdbtable"
     }
   }
-  
 }
